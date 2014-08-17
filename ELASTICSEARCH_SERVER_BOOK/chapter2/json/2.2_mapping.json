@@ -1,0 +1,40 @@
+{
+    "book": {
+        "_id": {
+            "_index": "not_analyzed",
+            "store": "yes"
+        },
+        "_index": {
+            "enabled": true
+        },
+        "properties": {
+            "author": {
+                "type": "string"
+            },
+            "available": {
+                "type": "boolean"
+            },
+            "characters": {
+                "type": "string"
+            },
+            "copies": {
+                "ignore_mailformed": false,
+                "type": "long"
+            },
+            "otitle": {
+                "type": "string"
+            },
+            "tags": {
+                "type": "string"
+            },
+            "title": {
+                "type": "string"
+            },
+            "year": {
+                "ignore_mailformed": false,
+                "index": "analyzed",
+                "type": "long"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "query": {
+    "terms": {
+	 "tags" : ["novel", "book"],
+	 "minimum_match": 2
+	 }
+  }
+}
