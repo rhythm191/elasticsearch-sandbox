@@ -1,0 +1,28 @@
+{
+    "mappings": {
+        "post": {
+            "properties": {
+                "contents": {
+                    "index": "analyzed",
+                    "store": "no",
+                    "type": "string"
+                },
+                "id": {
+                    "precision_step": "1",
+                    "store": "yes",
+                    "type": "long"
+                },
+                "name": {
+                    "index": "analyzed",
+                    "store": "yes",
+                    "type": "string"
+                },
+                "published": {
+                    "precision_step": "1",
+                    "store": "yes",
+                    "type": "date"
+                }
+            }
+        }
+    }
+}

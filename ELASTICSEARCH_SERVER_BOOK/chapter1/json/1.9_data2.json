@@ -1,0 +1,1 @@
+{"script": "ctx._source.counter +=1", "upsert": { "counter" : 0 }}
